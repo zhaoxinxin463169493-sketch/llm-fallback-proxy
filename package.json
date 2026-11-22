@@ -1,0 +1,15 @@
+{
+  "name": "llm-fallback-proxy",
+  "version": "0.1.0",
+  "description": "Zero-dependency OpenAI-compatible proxy that falls back to a second provider on 429/5xx/timeout, so an upstream outage doesn't take your agent down.",
+  "type": "module",
+  "bin": { "llm-fallback-proxy": "server.js" },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node scripts/doctor.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "keywords": ["openai-compatible", "proxy", "fallback", "llm", "gateway", "retry"]
+}
