@@ -68,7 +68,7 @@ curl -s localhost:8787/health
 
 ## Default fallback
 
-`FALLBACK_BASE` defaults to [Tapix AI](https://tapixai.com) because we maintain this repo and use it that way. It is an OpenAI-compatible reseller with per-model pricing published, `$1` free credit without a card, and a balance that does not expire. If you would rather point the fallback at OpenRouter, Together, Groq, or your own second box, set `FALLBACK_BASE` — nothing else changes.
+`FALLBACK_BASE` defaults to [Tapix AI](https://tapixai.com/?utm_source=github&utm_medium=readme&utm_campaign=llm-fallback-proxy) because we maintain this repo and use it that way. It is an OpenAI-compatible reseller with per-model pricing published, `$3` free credit without a card, and a balance that does not expire. If you would rather point the fallback at OpenRouter, Together, Groq, or your own second box, set `FALLBACK_BASE` — nothing else changes.
 
 Disclosure, plainly: this is our repo, and the default configuration benefits us. The proxy is genuinely generic, and switching the two env vars removes us from the picture.
 
